@@ -1,20 +1,11 @@
+//*******************************************************************
+// Ryan Loerzel
+// Project  : Blog Reader
+// February June1, 2014
+// The goal of this project is to make an http connection and parse
+// JSON data from teamtreehouse.com into a readable list
+//*******************************************************************
 package com.spacecasestudios.simpleblogreader;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.HashMap;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import com.spacecasestudios.simpleblogreader.R;
 
 import android.app.AlertDialog;
 import android.app.ListActivity;
@@ -33,6 +24,20 @@ import android.widget.ProgressBar;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class MainListActivity extends ListActivity {
 	

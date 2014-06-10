@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="C:\Users\Ryan\AndroidStudioProjects\SimpleBlogReader" />
-            <option value="C:\Users\Ryan\AndroidStudioProjects\SimpleBlogReader\SimpleBlogReader" />
+            <option value="C:\Users\Ryan\Development\SimpleBlogReaderApp" />
+            <option value="C:\Users\Ryan\Development\SimpleBlogReaderApp\SimpleBlogReader" />
           </set>
         </option>
       </GradleProjectSettings>
